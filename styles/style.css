@@ -1,0 +1,113 @@
+/* 基本重設 */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* 容器和版面配置 */
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* 標頭樣式 */
+.header {
+    text-align: center;
+    padding: 30px 0;
+    background-color: #3498db; /* 藍色背景 */
+    color: white;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.job-title {
+    margin: 5px 0 0 0;
+    font-style: italic;
+    font-size: 1.1em;
+}
+
+/* 頭像圖片 */
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* 圓形圖片 */
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 5px solid white;
+}
+
+/* 區塊標題 */
+h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+/* 列表和段落 */
+section ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+section li {
+    margin-bottom: 8px;
+}
+
+/* 工作/學歷項目 */
+article {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-left: 4px solid #3498db;
+    background-color: #ecf0f1;
+}
+
+article h3 {
+    margin-top: 0;
+    color: #2980b9;
+}
+
+.date {
+    font-style: italic;
+    color: #7f8c8d;
+    margin: 5px 0 10px 0;
+}
+
+/* 技能列表 */
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-list li {
+    background-color: #3498db;
+    color: white;
+    padding: 5px 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 0.9em;
+}
+
+/* 頁腳 */
+.footer {
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    font-size: 0.8em;
+    color: #7f8c8d;
+}
